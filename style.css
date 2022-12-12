@@ -12,8 +12,18 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+.lien {
+    color: #6D5ED3;
+}
+.lien:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: underline;
+}
 a:hover {
+    text-decoration: underline;
     /* text-decoration: none; */
     cursor: pointer;
 }
@@ -218,7 +228,7 @@ a:hover {
 
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
-.l-bloc .navbar a,
+/* .l-bloc .navbar a, */
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
@@ -236,7 +246,7 @@ a:hover {
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
+/* .l-bloc .navbar a:hover, */
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
 .l-bloc a:hover .icon-md,
@@ -647,8 +657,7 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
