@@ -12,10 +12,23 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
+.titrelien {
+font-size: 1.563em;
+color: #d17245;
+}
 .lien {
-    color: #6D5ED3;
+    color: #ffffff;
+}
+.lientop {
+    color: #364577;
+}
+.lientop:hover {
+    color: #364577;
+    text-decoration: underline;
+    cursor: pointer;
 }
 .lien:hover {
+    color: #FFFFFF;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -660,7 +673,7 @@ label,
 .btn {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
