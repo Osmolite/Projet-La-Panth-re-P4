@@ -19,10 +19,56 @@
 	<script src="./js/gmaps.js"></script>
 	<script type="application/ld+json">
 		{
-			"@context": "http://schema.org/",
-			"@type": "Recipe"
-		  }
-	</script>
+		  "@context": "https://schema.org",
+		  "@type": "Agence",
+		  "image": [
+			"img/4.png",
+			"img/logo.png",
+		   ],
+		  "name": "Agence La Panthère",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "2 place Sathonay",
+			"addressLocality": "Lyon",
+			"addressRegion": "Rhônes-Alpes",
+			"postalCode": "69001",
+			"addressCountry": "France"
+		  },
+		  "review": {
+			"@type": "Review",
+			"reviewRating": {
+			  "@type": "Rating",
+			  "ratingValue": "4",
+			  "bestRating": "5"
+			},
+			"author": {
+			  "@type": "Person",
+			  "name": "Mathilde Houbart"
+			}
+		  },
+		  "geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 45.769423,
+			"longitude": 4.830164
+		  },
+		  "url": "https://osmolite.github.io/Projet-La-Panth-re-P4/",
+		  "telephone": "+33652643589",
+		  "openingHoursSpecification": [
+			{
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": [
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday"
+			  ],
+			  "opens": "9:00",
+			  "closes": "18:00"
+			}
+		  ]
+		}
+		</script>
 
     <title>Agence la panthère - Web design en région Lyonnaise</title>
 	<meta name="description" content="L'agence la panthère est une agence de web design qui aide les entreprises à devenir attractives et visibles sur internet." />
