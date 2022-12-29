@@ -6,7 +6,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.tailleresponsive {
+    width: 100%;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -17,7 +19,7 @@ font-size: 1.563em;
 color: #d17245;
 }
 .lien {
-    color: #ffffff;
+    color: #FFBF9F;
 }
 .lientop {
     color: #364577;
@@ -28,7 +30,8 @@ color: #d17245;
     cursor: pointer;
 }
 .lien:hover {
-    color: #FFFFFF;
+    color:  #d17245;
+    ;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -584,7 +587,7 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal {
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
